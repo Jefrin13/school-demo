@@ -343,12 +343,12 @@ section.sec{padding:110px 36px;}
 .gal-cell:hover{transform:scale(1.03);}
 .gal-cell::before{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,transparent 35%,rgba(22,40,32,0.75));z-index:1;}
 .gal-cell > *{position:relative;z-index:2;}
-.gal-cell.g1{grid-column:span 2;grid-row:span 2;background-image:linear-gradient(to bottom,transparent 30%,rgba(22,40,32,0.8)),url('/site/images/campus.jpg');background-size:cover;background-position:center;}
-.gal-cell.g2{background-image:linear-gradient(to bottom,transparent 30%,rgba(22,40,32,0.8)),url('/site/images/sports.jpg');background-size:cover;background-position:center;}
-.gal-cell.g3{background-image:linear-gradient(to bottom,transparent 30%,rgba(22,40,32,0.8)),url('/site/images/art.jpg');background-size:cover;background-position:center;color:var(--paper);}
-.gal-cell.g4{grid-column:span 2;background-image:linear-gradient(to bottom,transparent 30%,rgba(22,40,32,0.8)),url('/site/images/classroom.jpg');background-size:cover;background-position:center;}
+.gal-cell.g1{grid-column:span 2;grid-row:span 2;background-image:linear-gradient(to bottom,transparent 30%,rgba(22,40,32,0.8)),url('https://github.com/Jefrin13/school-demo/blob/main/campus.jpg?raw=true');background-size:cover;background-position:center;}
+.gal-cell.g2{background-image:linear-gradient(to bottom,transparent 30%,rgba(22,40,32,0.8)),url('https://github.com/Jefrin13/school-demo/blob/main/sports.jpg?raw=true');background-size:cover;background-position:center;}
+.gal-cell.g3{background-image:linear-gradient(to bottom,transparent 30%,rgba(22,40,32,0.8)),url('https://github.com/Jefrin13/school-demo/blob/main/art.jpg?raw=true');background-size:cover;background-position:center;color:var(--paper);}
+.gal-cell.g4{grid-column:span 2;background-image:linear-gradient(to bottom,transparent 30%,rgba(22,40,32,0.8)),url('https://github.com/Jefrin13/school-demo/blob/main/classroom.jpg?raw=true');background-size:cover;background-position:center;}
 .gal-cell.g5{background:linear-gradient(135deg,var(--clay-dark),#6a2a15);}
-.gal-cell.g6{background-image:linear-gradient(to bottom,transparent 30%,rgba(22,40,32,0.8)),url('/site/images/lab.jpg');background-size:cover;background-position:center;}
+.gal-cell.g6{background-image:linear-gradient(to bottom,transparent 30%,rgba(22,40,32,0.8)),url('https://github.com/Jefrin13/school-demo/blob/main/lab.jpg?raw=true');background-size:cover;background-position:center;}
 .gal-note{text-align:center;margin-top:34px;font-family:var(--serif);font-style:italic;color:var(--ink-soft);font-size:15px;}
 
 .test-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:26px;}
