@@ -90,7 +90,7 @@ section.sec{padding:80px 36px 110px;}
 /* VISIT FORM */
 .visit-wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:54px;align-items:start;}
 @media(max-width:820px){.visit-wrap{grid-template-columns:1fr;}}
-.visit-info{background-image:linear-gradient(rgba(22,40,32,0.9),rgba(22,40,32,0.96)),url('/site/images/campus.jpg');background-size:cover;background-position:center;color:var(--paper);border-radius:var(--radius-lg);padding:44px 38px;position:relative;overflow:hidden;}
+.visit-info{background-image:linear-gradient(rgba(22,40,32,0.9),rgba(22,40,32,0.96)),url('https://github.com/Jefrin13/school-demo/blob/main/campus.jpg?raw=true');background-size:cover;background-position:center;color:var(--paper);border-radius:var(--radius-lg);padding:44px 38px;position:relative;overflow:hidden;}
 .visit-info::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--clay),var(--mustard),var(--clay),transparent);}
 .visit-info::after{content:"";position:absolute;bottom:-20%;right:-10%;width:250px;height:250px;border-radius:50%;background:radial-gradient(circle,rgba(191,74,38,0.06),transparent 70%);pointer-events:none;}
 .visit-info > *{position:relative;z-index:1;}
