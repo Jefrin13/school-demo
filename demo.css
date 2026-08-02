@@ -319,12 +319,12 @@ section.sec{padding:110px 36px;}
 .fac-tile:hover{transform:translateY(-8px);box-shadow:var(--shadow-lg);}
 .fac-tile.t1{grid-column:span 2;grid-row:span 2;background-image:linear-gradient(140deg,rgba(58,94,52,0.82),rgba(22,40,32,0.9)),url('https://github.com/Jefrin13/school-demo/blob/main/lab.jpg?raw=true');background-size:cover;background-position:center;color:var(--paper);}
 .fac-tile.t1::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 20%,rgba(255,255,255,0.12),transparent 60%);}
-.fac-tile.t2{background-image:linear-gradient(135deg,rgba(191,74,38,0.82),rgba(154,58,26,0.9)),url('/site/images/classroom.jpg');background-size:cover;background-position:center;color:var(--paper);}
+.fac-tile.t2{background-image:linear-gradient(135deg,rgba(191,74,38,0.82),rgba(154,58,26,0.9)),url('https://github.com/Jefrin13/school-demo/blob/main/classroom.jpg?raw=true');background-size:cover;background-position:center;color:var(--paper);}
 .fac-tile.t3{background:var(--paper);}
-.fac-tile.t4{grid-column:span 2;background-image:linear-gradient(135deg,rgba(22,40,32,0.78),rgba(58,94,52,0.86)),url('/site/images/library.jpg');background-size:cover;background-position:center;color:var(--paper);}
-.fac-tile.t5{background-image:linear-gradient(135deg,rgba(212,160,23,0.72),rgba(184,135,10,0.86)),url('/site/images/sports.jpg');background-size:cover;background-position:center;color:var(--ink);}
+.fac-tile.t4{grid-column:span 2;background-image:linear-gradient(135deg,rgba(22,40,32,0.78),rgba(58,94,52,0.86)),url('https://github.com/Jefrin13/school-demo/blob/main/library.jpg?raw=true');background-size:cover;background-position:center;color:var(--paper);}
+.fac-tile.t5{background-image:linear-gradient(135deg,rgba(212,160,23,0.72),rgba(184,135,10,0.86)),url('https://github.com/Jefrin13/school-demo/blob/main/sports.jpg?raw=true');background-size:cover;background-position:center;color:var(--ink);}
 .fac-tile.t6{background:var(--paper-3);}
-.fac-tile.t7{grid-column:span 2;background-image:linear-gradient(135deg,rgba(154,58,26,0.82),rgba(106,42,21,0.9)),url('/site/images/art.jpg');background-size:cover;background-position:center;color:var(--paper);}
+.fac-tile.t7{grid-column:span 2;background-image:linear-gradient(135deg,rgba(154,58,26,0.82),rgba(106,42,21,0.9)),url('https://github.com/Jefrin13/school-demo/blob/main/art.jpg?raw=true');background-size:cover;background-position:center;color:var(--paper);}
 .fac-tile > *{position:relative;z-index:1;}
 .fac-ico{font-size:34px;}
 .fac-tile.t1 .fac-ico{font-size:56px;}
