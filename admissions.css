@@ -64,7 +64,7 @@ nav{
 .nav-cta.active{background:var(--clay) !important;}
 
 /* PAGE HERO */
-.page-hero{padding:90px 36px 50px;position:relative;overflow:hidden;background-image:linear-gradient(rgba(246,239,224,0.84),rgba(246,239,224,0.93)),url('/site/images/library.jpg');background-size:cover;background-position:center 30%;}
+.page-hero{padding:90px 36px 50px;position:relative;overflow:hidden;background-image:linear-gradient(rgba(246,239,224,0.84),rgba(246,239,224,0.93)),url('https://github.com/Jefrin13/school-demo/blob/main/library.jpg?raw=true');background-size:cover;background-position:center 30%;}
 .page-hero::before{
   content:"";position:absolute;top:-15%;right:-8%;
   width:450px;height:450px;border-radius:50%;
@@ -83,7 +83,7 @@ nav{
 .btn-ghost:hover{background:var(--ink);color:var(--paper);border-color:var(--ink);}
 
 /* ADMISSIONS BANNER */
-.news-banner{background-image:linear-gradient(rgba(22,40,32,0.88),rgba(22,40,32,0.95)),url('/site/images/campus.jpg');background-size:cover;background-position:center;color:var(--paper);padding:40px 36px;position:relative;overflow:hidden;margin-top:10px;}
+.news-banner{background-image:linear-gradient(rgba(22,40,32,0.88),rgba(22,40,32,0.95)),url('https://github.com/Jefrin13/school-demo/blob/main/campus.jpg?raw=true');background-size:cover;background-position:center;color:var(--paper);padding:40px 36px;position:relative;overflow:hidden;margin-top:10px;}
 .news-banner::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--clay),var(--mustard),var(--clay),transparent);}
 .news-banner-inner{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:auto 1fr auto;gap:32px;align-items:center;}
 @media(max-width:780px){.news-banner-inner{grid-template-columns:1fr;text-align:center;}}
