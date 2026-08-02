@@ -63,7 +63,7 @@ nav{
 .nav-cta:hover{background:var(--clay) !important;transform:translateY(-1px);box-shadow:0 8px 20px -6px rgba(191,74,38,0.4);}
 
 /* PAGE HERO */
-.page-hero{padding:90px 36px 50px;position:relative;overflow:hidden;background-image:linear-gradient(rgba(246,239,224,0.84),rgba(246,239,224,0.93)),url('/site/images/sports.jpg');background-size:cover;background-position:center 35%;}
+.page-hero{padding:90px 36px 50px;position:relative;overflow:hidden;background-image:linear-gradient(rgba(246,239,224,0.84),rgba(246,239,224,0.93)),url('https://github.com/Jefrin13/school-demo/blob/main/sports.jpg?raw=true');background-size:cover;background-position:center 35%;}
 .page-hero::before{
   content:"";position:absolute;top:-15%;left:-8%;
   width:450px;height:450px;border-radius:50%;
